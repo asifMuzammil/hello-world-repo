@@ -4,7 +4,6 @@ jobs:
   hello-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo text local system
+      - name: Echo Text
         run: |
-          echo "Hello, world! From Kubuntu"
-          ls -la
+          echo "Hello, world!"
